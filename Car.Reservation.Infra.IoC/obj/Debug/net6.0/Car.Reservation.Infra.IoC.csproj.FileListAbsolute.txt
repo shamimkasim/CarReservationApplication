@@ -22,3 +22,15 @@ C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Infra.IoC\obj
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Infra.IoC\obj\Debug\net6.0\refint\Car.Reservation.Infra.IoC.dll
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.pdb
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Infra.IoC\obj\Debug\net6.0\ref\Car.Reservation.Infra.IoC.dll
+C:\src\Car.Reservation.Infra.IoC\bin\Debug\net6.0\Car.Reservation.Infra.IoC.deps.json
+C:\src\Car.Reservation.Infra.IoC\bin\Debug\net6.0\Car.Reservation.Infra.IoC.dll
+C:\src\Car.Reservation.Infra.IoC\bin\Debug\net6.0\Car.Reservation.Infra.IoC.pdb
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.csproj.AssemblyReference.cache
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.AssemblyInfoInputs.cache
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.AssemblyInfo.cs
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.csproj.CoreCompileInputs.cache
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.dll
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\refint\Car.Reservation.Infra.IoC.dll
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\Car.Reservation.Infra.IoC.pdb
+C:\src\Car.Reservation.Infra.IoC\obj\Debug\net6.0\ref\Car.Reservation.Infra.IoC.dll

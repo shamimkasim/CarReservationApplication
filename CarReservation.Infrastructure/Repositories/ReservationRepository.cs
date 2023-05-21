@@ -1,4 +1,5 @@
-﻿using CarReservation.Domain.Entities;
+﻿using CarReservation.Domain.Data;
+using CarReservation.Domain.Entities;
 using CarReservation.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,12 +11,14 @@ namespace CarReservation.Infrastructure.Repositories
 {
     public class ReservationRepository : IReservationRepository
     {
+        private readonly CarReservationDbContext _dbContext;       
 
         private List<Reservation> _reservations;
 
-        public ReservationRepository()
+        public ReservationRepository(CarReservationDbContext dbContext)
         {
             _reservations = new List<Reservation>();
+            _dbContext = dbContext;
         }
 
         public Reservation AddReservation(Reservation reservation)

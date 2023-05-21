@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Z22tyaXiGKXmzzSgmkFC++TVh5nQYWjiSql1SCoiC12tD8dcIFnbftddOsZ5g2CcTuMvibldFJZOWdvbiZH6QA==",
+  "dgSpecHash": "Tuz4tBcHOJp5gSpCdGsgSpxtzDyue7aLZ+P4LSVm5qjr6PbdYl/RLQ1PVXt/DC62Gs+qzhUlPOfuIVXn58n2uQ==",
   "success": true,
   "projectFilePath": "C:\\src\\CarReservation.Tests\\CarReservation.Tests.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
+    "C:\\Users\\shami\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\7.0.5\\microsoft.entityframeworkcore.inmemory.7.0.5.nupkg.sha512",
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\shami\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

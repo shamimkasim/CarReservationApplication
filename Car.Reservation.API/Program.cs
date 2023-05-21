@@ -1,6 +1,8 @@
+using CarReservation.Domain.Data;
 using CarReservation.Domain.Interfaces;
 using CarReservation.Domain.Services;
 using CarReservation.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
 namespace Car.Reservation.API
@@ -12,14 +14,20 @@ namespace Car.Reservation.API
             var builder = WebApplication.CreateBuilder(args);
             var configuration = builder.Configuration;
 
-            // Add services to the container.
-            builder.Services.AddSingleton<ICarRepository, CarRepository>();
-            builder.Services.AddSingleton<IReservationRepository, ReservationRepository>();
+            
+            builder.Services.AddDbContext<CarReservationDbContext>(options =>
+                options.UseInMemoryDatabase(databaseName: "CarReservationDatabase"));
+            var services = builder.Services;
+           
+            services.AddDbContext<CarReservationDbContext>();
+
+            builder.Services.AddScoped<ICarRepository, CarRepository>();
+            builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
             builder.Services.AddScoped<IReservationService, ReservationService>();
 
             builder.Services.AddControllers();
 
-            // Add Swagger
+            
             builder.Services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Car Reservation API", Version = "v1" });
@@ -27,7 +35,7 @@ namespace Car.Reservation.API
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+           
             if (app.Environment.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -50,6 +58,6 @@ namespace Car.Reservation.API
             app.MapControllers();
 
             app.Run();
-        } 
+        }
     }
 }

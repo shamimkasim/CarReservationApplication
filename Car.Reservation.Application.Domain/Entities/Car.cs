@@ -11,5 +11,9 @@ namespace CarReservation.Domain.Entities
         public string Id { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
+        public string Name { get; set; }
+        public bool Reserved { get; set; }
+        public int? ReservationId { get; set; }
+        public Reservation Reservations { get; set; }
     }
 }

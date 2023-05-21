@@ -22,3 +22,15 @@ C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Application.D
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Application.Domain\obj\Debug\net6.0\refint\CarReservation.Domain.dll
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.pdb
 C:\Users\shami\source\repos\src\CarReservation.API\Car.Reservation.Application.Domain\obj\Debug\net6.0\ref\CarReservation.Domain.dll
+C:\src\Car.Reservation.Application.Domain\bin\Debug\net6.0\CarReservation.Domain.deps.json
+C:\src\Car.Reservation.Application.Domain\bin\Debug\net6.0\CarReservation.Domain.dll
+C:\src\Car.Reservation.Application.Domain\bin\Debug\net6.0\CarReservation.Domain.pdb
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.csproj.AssemblyReference.cache
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.AssemblyInfoInputs.cache
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.AssemblyInfo.cs
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.csproj.CoreCompileInputs.cache
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.dll
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\refint\CarReservation.Domain.dll
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\CarReservation.Domain.pdb
+C:\src\Car.Reservation.Application.Domain\obj\Debug\net6.0\ref\CarReservation.Domain.dll

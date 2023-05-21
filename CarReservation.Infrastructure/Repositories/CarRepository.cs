@@ -1,4 +1,5 @@
-﻿using CarReservation.Domain.Entities;
+﻿using CarReservation.Domain.Data;
+using CarReservation.Domain.Entities;
 using CarReservation.Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -11,10 +12,11 @@ namespace CarReservation.Infrastructure.Repositories
 {
     public class CarRepository : ICarRepository
     {
-        private readonly DbContext _dbContext;
+        private readonly CarReservationDbContext _dbContext;
         private DbSet<Car> _cars;
 
-        public CarRepository(DbContext dbContext)
+
+        public CarRepository(CarReservationDbContext dbContext)
         {
             _dbContext = dbContext;
             _cars = _dbContext.Set<Car>();

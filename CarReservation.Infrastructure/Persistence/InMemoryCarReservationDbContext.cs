@@ -34,7 +34,7 @@ namespace CarReservation.Infrastructure.Persistence
                 entity.Property(c => c.Reserved)
                     .IsRequired();
 
-                entity.HasOne(c => c.Reservations)
+                entity.HasOne(c => c.Reservation)
                     .WithOne(r => r.Car)
                     .HasForeignKey<Reservation>(r => r.CarId);
             });

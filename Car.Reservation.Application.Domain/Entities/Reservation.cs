@@ -12,6 +12,6 @@ namespace CarReservation.Domain.Entities
         public Car Car { get; set; }
         public DateTime StartTime { get; set; }
         public TimeSpan Duration { get; set; }
-        public int CarId { get; set; }
+        public string CarId { get; set; }
     }
 }
